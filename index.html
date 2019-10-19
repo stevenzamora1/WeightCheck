@@ -8,7 +8,7 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Lets lose some weight</h1>
+                <h1>Lets check our weight!</h1>
             </div>
             <nav>
                 <ul>
@@ -39,17 +39,23 @@
                   </form>
                   <form >
                     First name:<br>
-                    <input type="text" name="firstname" value=""><br>
+                    <input type="text" name="firstname" id="firstname"value=""><br>
+
+                    Enter your age:<br>
+                    <input type="number" name="height" id = "age" value=""><br>
 
                     Enter your weight in pounds:<br>
-                    <input type="number" name="firstname" value=""><br>
+                    <input type="number" name="weight" id="weight" value=""><br>
 
                     Enter your height in inches:<br>
-                    <input type="number" name="weight" value=""><br>
+                    <input type="number" name="height" id = "height" value=""><br>
 
                     
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="formdata();">
                     <input type="reset">
+                    <script src = "CheckWeight.js"> 
+                    
+                    </script>
                   </form>
                 </a>
             </div>
