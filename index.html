@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lose Some weight</title>
-    <link rel="stylesheet" href="./web/css/style.css">
+    <title>Weight Check</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -21,16 +21,36 @@
 
     </header> 
     
-    
+    <!--
+        height
+
+
+    -->
 
     <section id="boxes">
         
         <div class="container">
             
             <p>
-              <label>Log in your Weight</label>
-              <input type = "text"/>
-           
+                <form>
+                    <input type="radio" name="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other
+                  </form>
+                  <form >
+                    First name:<br>
+                    <input type="text" name="firstname" value=""><br>
+
+                    Enter your weight in pounds:<br>
+                    <input type="number" name="firstname" value=""><br>
+
+                    Enter your height in inches:<br>
+                    <input type="number" name="weight" value=""><br>
+
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                  </form>
                 </a>
             </div>
 

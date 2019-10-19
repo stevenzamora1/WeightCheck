@@ -1,8 +1,8 @@
 body {
-	font: 15px/1.5 "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+	font: 15px/1.5 "font-family:new century schoolbook";
 	padding: 0;
 	margin: 0;
-	background-color: #0000ff;
+	background-color: #f0f0f0;
 }
 
 .container {
@@ -16,4 +16,59 @@ header {
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom: #ffffff 3px solid;
+}
+header li {
+	float: left;
+	display: inline;
+
+	/*Top Right Bottom Left*/
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight {
+	color: #64ffda;
+	font-weight: bold;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header a {
+	color: #00ff00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header a:hover {
+	color: #ffffff;
+	font-weight: bold;
+}
+footer {
+	padding: 20px;
+	margin-top: 7%;
+	margin-bottom: 0px;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
 }
