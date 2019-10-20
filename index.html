@@ -30,7 +30,8 @@
     <section id="boxes">
         
         <div class="container">
-            
+            <div id="like_button_container"></div>
+            <div id="form_container"></div>
             <p>
                 <form>
                     <input type="radio" name="gender" value="male" checked> Male<br>
@@ -40,7 +41,7 @@
 
 
                   
-                  <form action="user.html" method="POST">
+                  <form>
                     First name:<br>
                     <input type="text" name="firstname" id="firstname"value=""><br>
 
@@ -64,6 +65,7 @@
                   </form>
                 </a>
             </div>
+        
 
         </div>
      </section>
@@ -71,6 +73,12 @@
         <p>Middle ©</p>
 
      </footer>
+     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+   
+     <!-- Load our React component. -->
+     <script src="like_button.js"></script>
+     <script src="NameForm.js"></script>
 </body>
 
 

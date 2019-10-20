@@ -11,7 +11,6 @@ function formdata() {
 	age1 = document.getElementById('age').value;
 	console.log('first ==' + firstname1);
 
-	firstname1 = 'dwafa';
 	//Chechking to see if the user is the right age
 	if (age1 < 17) {
 		alert(firstname1 + ' you are too young for this');
